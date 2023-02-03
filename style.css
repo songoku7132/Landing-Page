@@ -118,6 +118,49 @@ img{
 
 
 
+.two{
+    height: 500px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blac;
+}
+.title{
+    border: 2px solid blac;
+    font-size: 36px;
+    font-weight: bold;
+    color:#1f2937;
+    text-align: center;
+    padding:40px;
+}
+.container{
+    border: 2px solid blac;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: cente;
+    gap: 32px;
+}
+.fog{
+    display: flex;
+    flex-direction: column;
+}
+.fo{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 16px;
+    border:5px solid #3882f6;
+    border-radius: 16px;
+}
+.texts{
+    border: 2px solid blac;
+    flex: 0 1 auto;
+    color:black;
+    width: 200px;
+    text-align: center;
+}
+
+
 
 
 
