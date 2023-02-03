@@ -159,6 +159,49 @@ img{
     width: 200px;
     text-align: center;
 }
+.three{
+    border: 2px solid blac;
+    background-color: #e5e7eb;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+}
+.hard{
+    border: 2px solid blac;
+    display: flex;
+    flex:1;
+    flex-direction: column;
+}
+.proxy{
+    flex:1;
+    display: flex;
+    height: 350px;
+    border: 2px solid blac;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.quote{
+    border: 2px solid blac;
+    width: 850px;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #1f2937;
+}
+.ps{
+    border: 2px solid blac;
+    flex:0 1 150px;
+    text-align: end;
+    font-size: 26px;
+    font-weight: bold;
+    padding-right: 30px;
+    
+}
+.empty{
+    border: 2px solid re;
+    width: 480px;
+    flex:0 1 auto;
+
+}
 
 
 
