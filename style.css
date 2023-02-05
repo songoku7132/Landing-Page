@@ -3,39 +3,36 @@ body{
     flex-direction: column;
     padding: 0;
     margin: 0;
+    background-color: black;
 }
 .one{
     flex-grow: 0;
-    height: 700px;
+    height: auto;
     display: flex;
-    background-color: #1f2937;
+    background: url(img/mars.jpg) no-repeat fixed;
+    background-size: 100%;
+    background-color: black;
 }
 .notmain{
-    border: 2px solid blac;
     color: red;
     flex:0 1 auto;
     width: 200px;
 }
 .notmainend{
-    border: 2px solid blac;
     width: 200px;
     flex:0 1 auto;
 }
 .main{
-    border: 2px solid whit;
     flex:1 1 0;
     color:white;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: cente;
 }
 .header{
-    border: 2px solid whit;
     display: flex;
 }
 ul{
-    border: 2px solid re;
     flex:1;
     display: flex;
     list-style: none;
@@ -44,7 +41,6 @@ ul{
     padding-right: 26px;
 }
 li{
-    border: 2px solid gree;
     margin-right: 0;
     align-items: center;
     display: flex;
@@ -58,41 +54,43 @@ a{
     color: #e5e7eb;
 }
 .logo{
-    border: 2px solid whit;
     font-size: 24px;
     color: #f9faf8;
     flex:1;
     padding:20px;
     font-weight: bold;
-
 }
 .another{
-    border: 2px solid whit;
+    background: rgba(83, 82, 81, 0.4);
+    border-radius: 20px;
+    border: 2px solid white;
     display: flex;
     align-self: stretch;
     flex: 1 1 auto;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
 }
 .gone{
-    border: 2px solid whit;
     display: flex;
     flex-direction: column;
     margin: 150px 10px;
     flex:1;
+    justify-content: center;
+    align-items: center;
 }
 .picture{
     flex:1;
-    border: 2px solid whit;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 img{
-    height: 300px;
-    width: 600px;
+    height: 400px;
+    width: auto;
 }
 .name,
 .text{
-    border: 2px solid whit;
+    text-align: center;
 }
 .name{
     font-size: 48px;
@@ -107,26 +105,24 @@ img{
 .first{
     border: none;
     border-radius: 8px;
-    background-color: #3882f6;
+    background-color: rgb(79, 77, 77);
     padding: 8px 16px;
     margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
     width: 100px;
     align-self: flex-start;
     font-size: 18px;
     color:white;
 }
-
-
-
 .two{
-    height: 500px;
+    height: auto;
     flex-grow: 0;
     display: flex;
     flex-direction: column;
-    border: 2px solid blac;
+    background-color: rgb(213, 105, 65);
 }
 .title{
-    border: 2px solid blac;
     font-size: 36px;
     font-weight: bold;
     color:#1f2937;
@@ -134,11 +130,11 @@ img{
     padding:40px;
 }
 .container{
-    border: 2px solid blac;
+    padding-bottom: 60px;
     flex:1;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: cente;
     gap: 32px;
 }
 .fog{
@@ -149,25 +145,24 @@ img{
     width: 200px;
     height: 200px;
     margin-bottom: 16px;
-    border:5px solid #3882f6;
+    border: 5px solid rgb(79, 77, 77);
     border-radius: 16px;
 }
 .texts{
-    border: 2px solid blac;
     flex: 0 1 auto;
-    color:black;
+    color:#1f2937;
     width: 200px;
     text-align: center;
 }
 .three{
-    border: 2px solid blac;
-    background-color: #e5e7eb;
-    height: 450px;
+    background-color: black;
+    height: auto;
     display: flex;
     flex-direction: row;
+    background: url(img/mars.jpg) no-repeat fixed;
+    background-size: 100%;
 }
 .hard{
-    border: 2px solid blac;
     display: flex;
     flex:1;
     flex-direction: column;
@@ -176,53 +171,52 @@ img{
     flex:1;
     display: flex;
     height: 350px;
-    border: 2px solid blac;
     justify-content: flex-end;
     align-items: flex-end;
+    padding-top: 100px;
 }
 .quote{
-    border: 2px solid blac;
     width: 850px;
     font-size: 36px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #1f2937;
+    color: whitesmoke;
 }
 .ps{
-    border: 2px solid blac;
     flex:0 1 150px;
     text-align: end;
     font-size: 26px;
     font-weight: bold;
     padding-right: 30px;
+    color: whitesmoke;
     
 }
 .empty{
-    border: 2px solid re;
     width: 480px;
     flex:0 1 auto;
 
 }
-.padding{
+.four{
+    height: auto;
     display: flex;
-    height: 400px;
-    
+    background-color: rgb(213, 105, 65);
 }
 .button{
-    border: 2px solid #3882f6;
-    background-color: #3882f6;
+    border: 2px solid rgb(79, 77, 77);
+    background-color: rgb(79, 77, 77);
     flex:1;
     margin: 100px 200px;
     border-radius: 10px;
     display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 .inside{
     flex:1 1 auto;
-    border: 2px solid blac;
     display: flex;
     flex-direction: column;
 }
 .sign{
-    border: 2px solid blac;
     width: 30%;
     display: flex;
     justify-content: center;
@@ -230,13 +224,11 @@ img{
     flex:0 1 auto;
 }
 .up{
-    border:solid white;
     border-radius: 8px;
-    background-color: #3882f6;
-    padding: 8px 16px;
-    
+    background-color: rgb(79, 77, 77);
+    padding: 8px 16px;   
     width: 100px;
-    
+    flex:0 1 auto;
     font-size: 18px;
     color:white;
 }
@@ -245,7 +237,6 @@ img{
     flex:0 1 auto;
 }
 .call{
-    border: 2px solid whit;
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
@@ -256,12 +247,10 @@ img{
     justify-content: flex-end;
 }
 .h4{
-    border: 2px solid whit;
     flex:0 1 0;
-    margin-right: 190px;
+    margin-right: 110px;
 }
 .by{
-    border: 2px solid whit;
     text-align: center;
     color:#e5e7eb;
     font-size: 18px;
@@ -279,7 +268,6 @@ img{
     color:#e5e7eb;
     font-size: 18px;
     flex:0 1 auto;
-    border: 2px solid whit;
 }
 
 
